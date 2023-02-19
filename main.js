@@ -150,7 +150,7 @@ function checkURL(URL){
 var cnip=''
 function ipcn(){
     if(visibl){
-        fetch('https://api-ipv4.ip.sb/geoip',{referrerPolicy: 'no-referrer'})
+        fetch('https://forge.speedtest.cn/api/location/info',{referrerPolicy: 'no-referrer'})
         .then(response => response.json())
         .then(data =>{
             var tag = document.getElementById("ipcn")

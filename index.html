@@ -124,8 +124,12 @@
                     <option value="https://d.musicapp.migu.cn/upload/fbpt_rsync_apps/local/signed/MobileMusic7140/MobileMusic7140_0140068.apk">咪咕音乐</option>
                     <option value="https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png">和彩云</option>
                     <option value="https://vod-origin-rjzy.gdoss.xstore.ctyun.cn/07da9eb52ad948c7b58b760003c0006b.mp4">天翼云</option>
-                    <option value="https://cachefly.cachefly.net/100mb.test">Cachefly Test [Global]</option>
-                    <option value="https://speed.cloudflare.com/__down?bytes=1073741824">Cloudflare Speed [Global]</option>
+				                    <option value="">↓↓  海外优选节点 ↓↓</option>	
+			              <option value="https://cachefly.cachefly.net/100mb.test" >Cachefly 100MB</option>
+			              <option value="https://speed.cloudflare.com/__down?bytes=25000000">cloudflare</option>
+			              <option value="https://sgp-ping.vultr.com/vultr.com.1000MB.bin">Vultr 1G(新加坡)</option>
+			              <option value="https://nj-us-ping.vultr.com/vultr.com.1000MB.bin">Vultr 1G(纽约)</option>
+			              <option value="https://speedtest.tokyo2.linode.com/100MB-tokyo2.bin">Linode 100MB(日本省东京市)</option>
                   </select>
                   <input value=""
                     oninput="document.getElementById('select').selectedIndex=0;document.getElementById('diy').value=this.value;setCookie('diy',this.value,365);setCookie('select',0,365);" type="text" id="link"
@@ -188,7 +192,7 @@
           </div>
           <div class="card card-preview">
             <div class="card-inner">
-              <h6><em class="icon ni ni-info"></em>出口地址</h6>
+              <h6><em class="ipinfo"></em>出口地址</h6>
               <div class="accordion-inner">
                 <li class="nk-menu-item ">
                   <a class="text-waring" style="pointer-events:none;" id="ipcn">Loading...</a>
